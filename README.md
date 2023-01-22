@@ -1,7 +1,7 @@
 
 # Full Stack Churn Prediction
 
-An end-to-end application of churn prediction sysyt with MLOps principles.
+An end-to-end application of churn prediction system with MLOps principles.
 
 
 [![Apache License](https://img.shields.io/badge/License-Apache-red)](https://choosealicense.com/licenses/apache-2.0/)
