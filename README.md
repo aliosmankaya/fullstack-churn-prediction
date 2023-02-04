@@ -8,7 +8,7 @@ An end-to-end application of churn prediction with MLOps principles.
 - [x] Analysis
 - [x] Model
 - [x] Experiment Tracking
-- [ ] API
+- [x] API
 - [ ] Front-End
 - [ ] Live
 
@@ -36,11 +36,18 @@ An end-to-end application of churn prediction with MLOps principles.
 
 ---
 
-### Experiment Tracking
-
-![](images/experiment-results.png)
-
-
-#### Feature Importance
+### Model
 
 <img src="images/feature-importance.png" alt="drawing" width="350"/>
+
+---
+
+### Experiment Tracking
+
+<img src="images/experiment-results.png" alt="drawing" width="1000"/>
+
+---
+
+### API
+
+<img src="images/API.png" alt="drawing" width="1000"/>
