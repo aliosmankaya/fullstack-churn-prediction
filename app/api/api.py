@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 
-from ..controller.counts import (
+from controller.counts import (
     columns_controller,
     column_values_controller,
     user_counts_controller,

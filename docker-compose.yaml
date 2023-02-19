@@ -1,0 +1,11 @@
+version: '3'
+services:
+  fullstack-churn-prediction:
+    image: fullstack-churn-prediction
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: fullstack-churn-prediction
+    command: "python /app/main.py"
+    ports:
+      - 8000:8000

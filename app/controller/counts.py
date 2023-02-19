@@ -1,4 +1,4 @@
-from ..services.counts import Counts
+from services.counts import Counts
 
 
 def columns_controller(col_type: str):

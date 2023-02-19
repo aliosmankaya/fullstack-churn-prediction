@@ -2,7 +2,7 @@ import os
 from sqlalchemy import create_engine, func
 from sqlalchemy.orm import Session
 
-from ..db.schema import Churn
+from db.schema import Churn
 
 
 class Counts:
