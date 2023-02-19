@@ -14,6 +14,12 @@ An end-to-end application of churn prediction with MLOps principles.
 
 ---
 
+### Start The App
+
+`docker compose up -d`
+
+---
+
 ### Tech Stack
 
 [![](https://img.shields.io/badge/python-v3.8-green)](https://www.python.org/)
