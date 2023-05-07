@@ -15,7 +15,7 @@ class Churn(Base):
     tenure = Column(Integer, nullable=False)
     PhoneService = Column(String, nullable=False)
     MultipleLines = Column(String, nullable=False)
-    InternetServices = Column(String, nullable=False)
+    InternetService = Column(String, nullable=False)
     OnlineSecurity = Column(String, nullable=False)
     OnlineBackup = Column(String, nullable=False)
     DeviceProtection = Column(String, nullable=False)
