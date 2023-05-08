@@ -22,7 +22,7 @@ def predict_service(file):
     if sorted(df.columns.tolist()) != sorted(default_columns):
         raise HTTPException(
             status_code=400,
-            detail=f"File columns must be equal to {sorted(Churn.__table__.c)}",
+            detail=f"File columns must be equal to {sorted(default_columns)}",
         )
 
     # Preprocess
